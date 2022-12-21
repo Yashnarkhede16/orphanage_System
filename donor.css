@@ -1,0 +1,44 @@
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Mother.jpg);
+    background-position: center;
+    background-size: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+.banner-title{
+    /* margin: 80px 130px; */
+    color: white;
+    width: 100%;
+    position: absolute;
+    top:55%;
+    transform: translateY(-50%);
+    text-align: center;
+   
+}
+.banner-title h1{
+    font-size: 70px;
+    margin: 30px auto;
+    
+}
+.btn button{
+    width: 200px;
+    padding:12px 5px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #7af8eb;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    text-transform: inherit;
+    position: relative;
+    overflow: hidden;
+}
+.btn button:hover{
+    background-color: #f1e5e5;
+    color: white;
+    border: none;
+    transition: 0.7s ease;
+}

@@ -1,0 +1,95 @@
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Mother.jpg);
+    background-position: center;
+    background-size: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+.banner-title{
+    /* margin: 80px 130px; */
+    color: white;
+    width: 100%;
+    position: absolute;
+    top:55%;
+    transform: translateY(-50%);
+    text-align: center;
+   
+}
+.banner-title h1{
+    font-size: 70px;
+    margin: 30px auto;
+    
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner-title button{
+    border-radius: 15px;
+    font-size: 29px;
+    font-weight: unset;
+    font-style: bold;
+    padding: 10px auto;
+    margin: 20px 20px;
+    border:2px solid white;
+}
+button a{
+    text-decoration: none;
+    color: rgb(3, 250, 3);
+}
+.nav-links .btn{
+    float: right;
+}
+.banner-title{
+    /* margin: 80px 130px; */
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top:55%;
+    transform: translateY(-50%);
+    text-align: center;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.body
+{
+    
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgb(245, 39, 39);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width:100px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #e93a3a;
+    border-radius: 10px;
+}
+menu-bar .fa
+{
+    margin-right: 8px;
+}

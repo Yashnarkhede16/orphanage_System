@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+    background-size: cover;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+.table
+{
+    padding: 80px 450px;
+}

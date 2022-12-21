@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Mother.jpg);
+    background-position: center;
+    background-size: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+.btn button{
+    width: 200px;
+    padding:12px 5px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+.btn button:hover{
+    background-color: #f70a0a;
+    color: white;
+    border: none;
+    transition: 0.7s ease;
+}
+.nav-bar{
+    display: flex;
+    padding: 20px 90px;
+}
+.nav-logo img{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    margin-left: 60px;
+    display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner-title button{
+    border-radius: 15px;
+    font-size: 29px;
+    font-weight: unset;
+    font-style: bold;
+    padding: 10px auto;
+    margin: 20px 20px;
+    border:2px solid white;
+}
+button a{
+    text-decoration: none;
+    color: rgb(3, 250, 3);
+}
+.nav-links .btn{
+    float: right;
+}
+.banner-title{
+    /* margin: 80px 130px; */
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top:55%;
+    transform: translateY(-50%);
+    text-align: center;
+    cursor: pointer;
+   
+}
+.banner-title h1{
+    font-size: 6em;
+    font-weight: 500;
+    color: rgb(245, 9, 9);
+    margin: 30px auto;
+    letter-spacing: 5px;
+    cursor: pointer;
+    
+}
+h1 span{
+    transition: 0.5s;
+    
+}
+
+h1:hover span:nth-child(1)
+{
+    margin-right: 10px;
+}
+h1:hover span:nth-child(1)::after
+{
+    content:"";
+}
+h1:hover span:nth-child(2)
+{
+    margin-left: 40px;
+}
+h1:hover span
+{
+    color:#fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff;
+                
+                 
+                
+}
+.vertical-bar{
+    height: 100%;
+    background: rgb(5, 5, 5);
+    top: 0;
+    left: 0;
+    position: absolute;
+} 
+.search-icon{
+    height: 60%;
+    width: 80px;
+}
+.search-icon .fa{
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-icons{
+    height: 35%;
+    width: 80px;
+    background: rgb(247, 247, 31);
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.social-icons .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.notification{
+    display: flex;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+    align-items: center;
+}
+.contents{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.notification-img{
+    flex-basis: 50%;
+}
+.notification-img img{
+    width: 100%;
+}
+.contents a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    margin: 0 10px;
+}
+.contents p{
+    text-align: right;
+    margin-top: 30px;
+}
+.nav-bar .fa{
+    display: none;
+}
+@media (max-width: 700px){
+    .vertical-bar{
+        display: none;
+    }
+    .banner-title{
+        margin: 80px 40px;
+    }
+    .banner-title h1{
+        font-size: 50px;
+    }
+    .notification{
+        width: 100%;
+    }
+    .nav-bar{
+        padding: 10px 30px;
+    }
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-bar .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links{
+        height: 100vh;
+        width: 100px;
+        background: #000;
+        top: 0;
+        right: -180px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul a{
+        display: block;
+    }
+    .nav-links .btn{
+        float: none;
+        margin-left: 20px;
+        margin-top: 10px;       
+    }
+}
